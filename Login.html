@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple_Login</title>
+  <link rel="stylesheet" href="./Simple_Login_files/login-page.css">
+  <script defer="" src="./Simple_Login_files/login-page.js"></script>
+</head>
+
+<body background="./Simple_Login_files/4k.jpg">
+<p class="pnormal1"><u>Steps to Login successfully:</u>
+<br>1. Click 'Forget Password' button<br>
+2. Enter the new password<br>
+3. Now login with the new password<br><br>
+Note: Password needs to be changed <br>
+everytime the page refresh or reload</p>
+<p class="pnormal2">Click on the below image for visual walkthrough<br>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</p>
+  <main id="main-holder">
+    <h1 id="login-header">Please Sign in</h1>
+	<p class="pnormal">Change the password by clicking the Forget password button and login with new password. Please use Username as 'User'</p>
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    <form id="login-form">
+		  <input type="submit" value="Reset" id="login-form-submit2">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit"> 
+	  <input type="submit" value="Forget Password" id="login-form-submit1">
+    </form>
+
+  </main>
+ <img id="myImg" src="./Simple_Login_files/steps.jpg" alt="Steps to login" style="width:100%;max-width:280px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none;">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01" src="./Simple_Login_files/steps.jpg">
+  <div id="caption">Steps to login</div>
+</div>
+
+  
+
+</body></html>
